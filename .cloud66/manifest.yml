@@ -2,11 +2,9 @@ staging:
   rails:
     configuration:
       ruby_version: 2.5.1
-      asset_pipeline_precompile: true
-      do_initial_db_schema_load: true
-    servers:
-      server:
-        unique_name: gold
-        region: fra1
-        vendor: digitalocean
-        size: g-2vcpu-8gb
+    server:
+      unique_name: gold
+      vendor: digitalocean
+      region: fra1
+      size: g-2vcpu-8gb
+      key_name: Default
