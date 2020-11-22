@@ -1,6 +1,7 @@
 staging:
   rails:
     configuration:
+      vpc_id: default
       ruby_version: 2.5.1
     server:
       unique_name: szyszka
