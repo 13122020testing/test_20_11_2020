@@ -1,13 +1,3 @@
-staging:
-  rails:
-    configuration:
-      ruby_version: 2.5.1
-    server:
-      unique_name: gold2
-      vendor: digitalocean
-      region: fra1
-      size: g-2vcpu-8gb
-      key_name: Default
 qa:
   rails:
     configuration:
