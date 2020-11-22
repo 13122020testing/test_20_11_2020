@@ -1,4 +1,4 @@
-staging:
+qa:
   rails:
     configuration:
       ruby_version: 2.5.1
