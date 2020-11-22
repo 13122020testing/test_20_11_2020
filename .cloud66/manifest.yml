@@ -8,3 +8,13 @@ staging:
       region: fra1
       size: g-2vcpu-8gb
       key_name: Default
+qa:
+  rails:
+    configuration:
+      ruby_version: 2.5.1
+    server:
+      unique_name: szyszka
+      vendor: aws
+      region: eu-central-1
+      size: m3.medium
+      key_name: Default
