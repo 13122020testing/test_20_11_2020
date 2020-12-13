@@ -1,3 +1,9 @@
-- name: ruby
+- name: ruby1
+  service: web
+  command: bundle exec rake db:create
+- name: ruby2
+  service: web
+  command: bundle exec rake db:migrate
+- name: ruby3
   service: web
   command: bundle exec rspec spec
