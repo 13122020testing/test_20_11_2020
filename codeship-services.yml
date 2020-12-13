@@ -1,0 +1,13 @@
+db:
+  image: postgres
+  volumes:
+    - ./tmp/db:/var/lib/postgresql/data
+  environment:
+    POSTGRES_PASSWORD: password
+web:
+  build:
+    dockerfile: Dockerfile.test
+  volumes:
+    - .:/myapp
+  depends_on:
+    - db

@@ -1,0 +1,3 @@
+- name: ruby
+  service: web
+  command: bundle exec rspec spec
